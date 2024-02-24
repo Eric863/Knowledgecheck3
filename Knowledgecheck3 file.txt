@@ -1,0 +1,3 @@
+SELECT o.OrderID, C.ADDRESS, c.CustomerName
+FROM Customers AS c, Orders AS o
+WHERE c.CustomerName='The Big Cheese' AND c.CustomerID=o.CustomerID;
